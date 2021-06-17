@@ -1,0 +1,222 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/tonigonzalez/Desktop/Diseño de sonido AA6/SunnyLandProject
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50133
+Successfully changed project path to: /Users/tonigonzalez/Desktop/Diseño de sonido AA6/SunnyLandProject
+/Users/tonigonzalez/Desktop/Diseño de sonido AA6/SunnyLandProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 58.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/tonigonzalez/Desktop/Diseño de sonido AA6/SunnyLandProject/Assets
+GfxDevice: creating device client; threaded=0
+2021-06-16 12:47:19.498 Unity[6540:674289] (null) preferred device: AMD Radeon Pro 555 (high power)
+2021-06-16 12:47:19.498 Unity[6540:674289] Metal devices available: 1
+2021-06-16 12:47:19.498 Unity[6540:674289] 0: AMD Radeon Pro 555 (high power)
+2021-06-16 12:47:19.499 Unity[6540:674289] Using device AMD Radeon Pro 555 (high power)
+Initializing Metal device caps: AMD Radeon Pro 555
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.9f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000920 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 44.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.618 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001901 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.067 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 1.27 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1549 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.2 MB.
+System memory in use after: 125.3 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 1966.
+Total: 3.235757 ms (FindLiveObjects: 0.222137 ms CreateObjectMapping: 0.064353 ms MarkObjects: 2.871142 ms  DeleteObjects: 0.076178 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Master Audio Mix.mixer
+  artifactKey: Guid(aa253f25b7f9044b59610b470218db98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Master Audio Mix.mixer using Guid(aa253f25b7f9044b59610b470218db98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e138d27e677554682c818cb1c2233afd') in 2.146628 seconds
+  Import took 2.226127 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 21.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.6 MB.
+System memory in use after: 99.7 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 1966.
+Total: 3.145574 ms (FindLiveObjects: 0.214204 ms CreateObjectMapping: 0.124161 ms MarkObjects: 2.766669 ms  DeleteObjects: 0.039423 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003244 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.171 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.7 MB.
+System memory in use after: 129.8 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1969.
+Total: 3.788015 ms (FindLiveObjects: 0.383555 ms CreateObjectMapping: 0.115503 ms MarkObjects: 3.242329 ms  DeleteObjects: 0.045507 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.301735 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.972 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.9 MB.
+System memory in use after: 130.0 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1972.
+Total: 2.204244 ms (FindLiveObjects: 0.178052 ms CreateObjectMapping: 0.048164 ms MarkObjects: 1.893720 ms  DeleteObjects: 0.068075 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002007 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.832 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.1 MB.
+System memory in use after: 130.2 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1975.
+Total: 4.317112 ms (FindLiveObjects: 0.230992 ms CreateObjectMapping: 0.122728 ms MarkObjects: 3.918288 ms  DeleteObjects: 0.043787 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002470 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Obtained 62 stack frames.
+#0  0x0000013fde846e in mono_local_cprop
+#1  0x0000013fd87a48 in mini_method_compile
+#2  0x0000013fd8a321 in mono_jit_compile_method_inner
+#3  0x0000013fd8d287 in mono_jit_compile_method_with_opt
+#4  0x0000013fd90944 in mono_jit_runtime_invoke
+#5  0x0000013ff2ec7b in do_runtime_invoke
+#6  0x0000013ff3226c in mono_runtime_try_invoke_array
+#7  0x0000013fee4ca8 in ves_icall_InternalInvoke
+#8  0x00000142471901 in  (wrapper managed-to-native) System.Reflection.MonoCMethod:InternalInvoke (System.Reflection.MonoCMethod,object,object[],System.Exception&) {0x7fb646113b00} + 0x71 (0x142471890 0x1424719ab) [0x140488960 - Unity Child Domain]
+#9  0x0000014248e6b3 in  System.RuntimeType:CreateInstanceMono (bool) {0x7fb645aa6858} + 0x1a3 (0x14248e510 0x14248e7b3) [0x140488960 - Unity Child Domain]
+#10 0x000001424073fb in  UnityEditor.UIElements.UXMLEditorFactories:.cctor () {0x7fb64a217908} + 0x11db (0x142406220 0x1424077fb) [0x140488960 - Unity Child Domain]
+#11 0x00000142403d16 in  (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr) {0x7fb64aedeb50} + 0x76 (0x142403ca0 0x142403da3) [0x140488960 - Unity Child Domain]
+#12 0x0000013fd90cbf in mono_jit_runtime_invoke
+#13 0x0000013ff2ec7b in do_runtime_invoke
+#14 0x0000013ff2b406 in mono_runtime_class_init_full
+#15 0x0000013fee67ec in ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+#16 0x0000014091dec6 in  (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr) {0x7fb6464164b0} + 0x56 (0x14091de70 0x14091df4d) [0x140488960 - Unity Child Domain]
+#17 0x0000014246bec1 in  (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr) {0x7fb64a0dd290} + 0x81 (0x14246be40 0x14246bf53) [0x140488960 - Unity Child Domain]
+#18 0x0000013fd90cbf in mono_jit_runtime_invoke
+#19 0x0000013ff2ec7b in do_runtime_invoke
+#20 0x0000013ff2ebd5 in mono_runtime_invoke
+#21 0x00000110a92d97 in scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+#22 0x00000110a8c280 in ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+#23 0x0000010ef1bf3d in Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+#24 0x00000110a45ba4 in MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+#25 0x00000110a4736f in MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+#26 0x00000110a4610d in MonoManager::ReloadAssembly()
+#27 0x00000111f30790 in LoadDomainAndUserAssemblies(bool)
+#28 0x00000111f3317e in LoadUserAssemblies()
+#29 0x000001124185d9 in AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+#30 0x000001124438be in core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+#31 0x000001124b7560 in asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+#32 0x000001124b4825 in asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+#33 0x000001124b42c1 in asio::detail::task_io_service::run(std::__1::error_code&)
+#34 0x000001124ae58a in IOService::Run(bool)
+#35 0x0000011240b9bc in RunAssetImporterV2()
+#36 0x0000011170f3a3 in Application::InitializeProject()
+#37 0x000001139252ad in -[EditorApplication applicationDidFinishLaunching:]
+#38 0x007fff2dbe42af in __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+#39 0x007fff2dbe4243 in ___CFXRegistrationPost1_block_invoke
+#40 0x007fff2dbe41b8 in _CFXRegistrationPost1
+#41 0x007fff2dbe3e24 in ___CFXNotificationPost_block_invoke
+#42 0x007fff2dbb3f8d in -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+#43 0x007fff2dbb3439 in _CFXNotificationPost
+#44 0x007fff30231086 in -[NSNotificationCenter postNotificationName:object:userInfo:]
+#45 0x007fff2ae684f3 in -[NSApplication _postDidFinishNotification]
+#46 0x007fff2ae68232 in -[NSApplication _sendFinishLaunchingNotification]
+#47 0x007fff2ae652f3 in -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+#48 0x007fff2ae64f38 in -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+#49 0x007fff3025c326 in -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+#50 0x007fff3025c190 in _NSAppleEventManagerGenericHandler
+#51 0x007fff2ef61203 in _AppleEventsCheckInAppWithBlock
+#52 0x007fff2ef60929 in _AppleEventsCheckInAppWithBlock
+#53 0x007fff2ef58bd7 in aeProcessAppleEvent
+#54 0x007fff2c82a7fa in AEProcessAppleEvent
+#55 0x007fff2ae5f2d1 in _DPSNextEvent
+#56 0x007fff2ae5d880 in -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#57 0x007fff2ae4f58e in -[NSApplication run]
+#58 0x007fff2ae21396 in NSApplicationMain
+#59 0x00000113960079 in EditorMain(int, char const**)
+#60 0x000001139602a9 in main
+#61 0x007fff67b12cc9 in start
