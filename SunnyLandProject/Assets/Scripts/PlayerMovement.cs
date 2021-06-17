@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour {
 	private AudioSource correr;
 	private float instspeed;
 	private Rigidbody2D rb;
+	private bool moviendo =false;
 	
 	void Start()
 	{
@@ -60,7 +61,7 @@ public class PlayerMovement : MonoBehaviour {
 		
         //if(animator.speed > 0 && !animator.isJumping)
 		instspeed = rb.velocity.magnitude;
-        if((instspeed > 0.5f) && (!animator.GetBool("IsJumping")))
+        if(((int)instspeed>0) && (!animator.GetBool("IsJumping")))
 		{
 			Debug.Log("speed: " + instspeed.ToString());
             if(!correr.isPlaying) correr.Play();

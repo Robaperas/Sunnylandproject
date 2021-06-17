@@ -31,10 +31,10 @@ public class Caja : MonoBehaviour
     void FixedUpdate()
     {
         instspeed = rb.velocity.magnitude;
-        if(instspeed>0)
+        if((int)instspeed>0)
         {
             Debug.Log("caja moviendose");
-            //moviendo.volume = instspeed;
+            moviendo.volume = (1-(1/Mathf.Exp(instspeed)));
             //moviendo.volume = newvolume;
             if (!moviendo.isPlaying) moviendo.Play();
         }
@@ -43,21 +43,17 @@ public class Caja : MonoBehaviour
             if (moviendo.isPlaying) moviendo.Pause();
         }
     }
-    void OnGUI()
-    {
-        moviendo.volume = instspeed*2f;
-    }
     void Update()
     {
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("caja colision");
-        golpe1.Play();
-        //aleatorio = Random.Range(1,3);
-        //if(aleatorio = 1) golpe1.Play();
-        //if(aleatorio = 2 ) golpe2.Play();
-        //if(aleatorio = 3) golpe3.Play();
+        //golpe1.Play();
+        aleatorio = Random.Range(1,4);
+        if((aleatorio >= 1) && (aleatorio < 2)) golpe1.Play();
+        if((aleatorio >= 2 ) && (aleatorio < 3)) golpe2.Play();
+        if(aleatorio >=3) golpe3.Play();
     }
 }
